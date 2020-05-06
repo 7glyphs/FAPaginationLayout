@@ -6,7 +6,7 @@
 //  Copyright © 2017 Fahid Attique. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 
 public class FAPaginationLayout: UICollectionViewFlowLayout {
@@ -149,3 +149,4 @@ public class FAPaginationLayout: UICollectionViewFlowLayout {
 
     
 }
+#endif
