@@ -6,7 +6,8 @@
 //  Copyright © 2017 Fahid Attique. All rights reserved.
 //
 
-#if canImport(UIKit)
+#if os(iOS)
+import UIKit
 
 
 public class FAPaginationLayout: UICollectionViewFlowLayout {
